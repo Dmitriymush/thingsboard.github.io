@@ -4,7 +4,7 @@
 }
 
 #slider {
-    height: 34.2vw;
+    height: 34vw;
     position: relative;
     perspective: 900px;
     transform-style: preserve-3d;
@@ -51,7 +51,7 @@
 #s1:checked ~ #slide1:active, #s2:checked ~ #slide2:active,
 #s3:checked ~ #slide3:active, #s4:checked ~ #slide4:active,
 #s5:checked ~ #slide5:active {
-    transform: scale(1.25, 1.25);
+    transform: scale(1.2, 1.2);
 }
 
 #s1:checked ~ #slide2, #s2:checked ~ #slide3,
